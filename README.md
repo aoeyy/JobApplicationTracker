@@ -10,23 +10,39 @@ In today's competitive job market, individuals often find themselves juggling nu
 
 # Key Features
 •	Add a job application.
+
 •	Update a job application.
+
 •	Delete a job application.
+
 •	Search job applications by company.
+
 •	List all companies applied to.
+
 •	Analytics: provides users with insights into their job application activity such as:
+
   o	Total amount of job applications
+  
   o	Status Count: Breakdown of job applications by status categories within a specified time period. It gives users an overview of their overall job search activity.
+  
     -	Applied: Number of applications that have been submitted but not yet progressed to the next stage.
+    
     -	Interview Scheduled: Number of applications where interviews have been scheduled.
+    
     -	Offer Extended: Number of applications where a job offer has been extended to the user.
+    
     -	Rejected: Number of applications that have been rejected by the employer.
+    
     -	Withdrawn: Number of applications that the user has withdrawn from consideration.
+  
   o	Application to Interview Rate:
 Percentage of applications that have progressed to the interview stage. This metric helps users evaluate the effectiveness of their job search strategies and identify areas for improvement.
+
   o	Application to Offer Rate:
 Percentage of applications that have resulted in job offers.
+
 •	Exit the program.
+
 •	The data saves to a CSV file in which the user can open and edit on their own accord.
 
 
