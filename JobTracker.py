@@ -93,7 +93,7 @@ class JobApplicationTracker:
             # If "Interview Scheduled" is selected, we want the interview date
             if status_choice == '2':  
                 interview_date = input("Interview Date (YYYY-MM-DD): ")
-                while not self.validate_date(interview_date):
+                while not self.validate_interview_date(interview_date):
                     interview_date = input(" Interview Date (YYYY-MM-DD): ")
 
             application_found = False
@@ -115,11 +115,14 @@ class JobApplicationTracker:
     # delete application based on the matching company and position
     def delete_application(self, company, position):
         company_lower = company.lower()
+        position_lower = position.lower()  # Convert user input for position to lowercase for case-insensitive comparison
         if company_lower in self.applications:
-            application_index = next((index for (index, d) in enumerate(self.applications[company_lower]) if d["Position"] == position), None)
+            # Find the application to delete using a case-insensitive comparison for positions
+            application_index = next((index for (index, d) in enumerate(self.applications[company_lower]) if d["Position"].lower() == position_lower), None)
             if application_index is not None:
                 del self.applications[company_lower][application_index]
                 print(f"\nApplication for {position} at {company} deleted successfully.")
+                # Check if there are no more applications for the company and delete the company if empty
                 if not self.applications[company_lower]:
                     del self.applications[company_lower]
                 self.save_to_csv()
