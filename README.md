@@ -2,7 +2,8 @@
 Project #1 for ENGM 4620 – Python for Engineers
 
 # Documents
-[View PDF](./JobApplicationTrackerReport.pdf)
+[View Report PDF](./JobApplicationTrackerReport.pdf)
+[Link to Video Presentation]
 
 # Description
 In today's competitive job market, individuals often find themselves juggling numerous job applications simultaneously, leading to potential confusion, missed deadlines, and disorganization. Without a centralized system to manage applications, candidates may struggle to keep track of important details such as application status, interview dates, contact information, and additional details. This lack of organization can hinder chances of securing employment opportunities efficiently. Therefore, there is a practical need for a user-friendly job application tracker tool that can streamline the application process, increase organization, and enhance the prospects of job seekers by providing them with a structured platform to manage their job applications effectively.
