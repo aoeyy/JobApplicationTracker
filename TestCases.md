@@ -1,6 +1,6 @@
-#**Adding an application:** the user is able to add a new application in which the application details saves to a csv file. If the csv file does not currently exist, a csv file named job_applications.csv will be created in the same folder that houses the Job Application Tracker Python Source File
+**Adding an application:** the user is able to add a new application in which the application details saves to a csv file. If the csv file does not currently exist, a csv file named job_applications.csv will be created in the same folder that houses the Job Application Tracker Python Source File
 
-#**Adding an application with the status as Interview scheduled:** the user will enter their application details and once the status is set to Interview Scheduled, the user will be prompted to input their interview date.
+**Adding an application with the status as Interview scheduled:** the user will enter their application details and once the status is set to Interview Scheduled, the user will be prompted to input their interview date.
 
 **Adding an application without the company name or position:** the program will output error messages indicating that the user must enter a company name and position if these fields are left empty.
 
